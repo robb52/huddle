@@ -20,12 +20,12 @@ h1 {
   font-family: 'Poppins', sans-serif;
 }
 
-img {
+.logo-img,
+.grow-img,
+.flowing-img,
+.your-img,
+.hero-img {
   width: 100%;
-}
-
-main {
-  
 }
 
 nav {
@@ -40,13 +40,14 @@ nav {
   border: none;
   background: #fff;
   padding: .5em 2em; 
-  box-shadow: 0px 10px 13px -7px #dedcdc, 0px 4px 10px 8px rgba(0,0,0,0.01);}
+  box-shadow: 0px 10px 13px -7px #dedcdc, 0px 4px 10px 8px rgba(0,0,0,0.01);
+}
 
 .logo {
   width: 6em;
 }
 
-.all {
+.main-hero {
   background: hsl(193, 100%, 96%);
 }
 
@@ -67,7 +68,7 @@ nav {
 }
 
 .hero-desc {
-  padding: 1.5em 0 1.5em;
+  padding: 1.5em 1em;
 }
 
 .hero-btn {
@@ -76,6 +77,46 @@ nav {
   border-radius: 50px;
   text-transform: capitalize;
   margin-bottom: 4em;
+  border: none;
+  background: hsl(322, 100%, 66%);
+  color: #fff;
+}
+
+.grow-card,
+.flowing-card,
+.your-card,
+.ready-card {
+ margin: 3em 1.5em;
+ padding: 3em 1.5em;
+ font-size: 1rem;
+ text-align: center;
+ border-radius: 1em;
+ box-shadow: 1px 7px 23px 1px #cdcbcb, 0px 4px 5px 8px rgba(0,0,0,0.01);
+}
+
+.grow-title,
+.flowing-title,
+.your-title {
+  margin: 3em 0 1em;
+  text-transform: capitalize;
+}
+
+.grow-desc,
+.flowing-desc,
+.your-desc {
+  color: hsl(208, 11%, 55%);
+}
+
+.ready-title {
+  font-size: 1rem;
+  text-transform: capitalize;
+  margin-bottom: 2em;
+}
+.ready-btn {
+  font-size: .75rem;
+  padding: 1em 4em;
+  border-radius: 50px;
+  text-transform: capitalize;
   border: none;
   background: hsl(322, 100%, 66%);
   color: #fff;
