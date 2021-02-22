@@ -191,3 +191,34 @@ i.fab.fa-facebook-f {
   text-align: center;
   font-size: .75rem;
 }
+
+@media(min-width: 700px) {
+  .hero {
+  background-image: url('../images/bg-hero-desktop.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  text-align: center;
+  }
+  
+  .main-hero {
+   padding: 0 3em 3em;
+  }
+
+  .title-sec {
+    display: flex; 
+    margin-top: 2em;
+  }
+
+  .title { 
+    text-align: left;
+    width: 60%;
+    margin-right: 2em;
+  }
+
+  .hero-desc {
+    padding: 0;
+    margin: 1em 0;
+  }
+
+}
