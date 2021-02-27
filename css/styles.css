@@ -269,4 +269,40 @@ i.fab.fa-facebook-f {
     margin-right: auto;
   }
 
+  .ft-img {
+    width: 15%;
+    margin-bottom: 1em;
+  }
+
+  .ft-logo {
+    margin-left: 4.5em;
+  }
+
+  .footer-sec {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+
+  .list-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: .5em 4em;
+    margin-top: 0;
+  }
+
+  .icons {
+    width: 30%;
+  }
+
+  .icon {
+    margin-bottom: 1em;
+  }
+
+  .copyright {
+    margin-top: 5em;
+    margin-right: 1em;
+    text-align: right;
+  }
+
 }
